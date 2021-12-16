@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+      body {
+        font-family: 'Playfair Display', serif;
+        font-size: 14px;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    </style>
+    <title>Contato</title>
+  </head>
+  <body>
+    <header>
+      <a href="glossary.html">Glossário</a>
+      <a href="contato.html">Contato</a>
+      <a href="#">Compras</a>
+      <a href="#">Quiz</a>
+      <a href="#">Blog Post</a>
+    </header>
+    <main>
+      <fieldset>
+        <legend>Entrar em contato</legend>
+        <label for="assunto">Assunto:</label>
+        <select name="assunto" id="assunto">
+          <option value="Suporte">Suporte</option>
+          <option value="Edicao">Edição</option>
+          <option value="Financeiro">Financeiro</option>
+          <option value="Vagas">Vagas</option>
+        </select>
+        <br /><br />
+
+        <label for="name">Nome Completo</label><br />
+        <input type="text" placeholder="Seu nome" />
+        <br /><br />
+
+        <label for="email">E-mail</label><br />
+        <input type="email" placeholder="email@seudominio.com" />
+        <br /><br />
+        <label for="mensagem">Mensagem</label><br />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Escreva sua mensagem aqui"
+        ></textarea>
+        <br /><br />
+        <input type="checkbox" id="aceita" />
+        <label for="aceita">Aceito receber novidades por e-mail</label>
+        <br /><br />
+        <button>Enviar</button>
+      </fieldset>
+    </main>
+  </body>
+</html>
