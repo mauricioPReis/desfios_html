@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
@@ -22,6 +23,7 @@
         background: #b8f4ff;
       }
       fieldset {
+        display: block;
         border-radius: 10px;
         background: linear-gradient(#b8fdff, #2affea, #007c70);
       }
@@ -34,7 +36,7 @@
         margin: 10px 20px 10px 20px;
       }
     </style>
-    <title>Contato</title>
+    <title>Lista de Compras</title>
   </head>
   <body>
     <header>
@@ -46,36 +48,30 @@
     </header>
     <main>
       <fieldset>
-        <legend>Entrar em contato</legend>
-        <label for="assunto">Assunto:</label>
-        <select name="assunto" id="assunto">
-          <option value="Suporte">Suporte</option>
-          <option value="Edicao">Edição</option>
-          <option value="Financeiro">Financeiro</option>
-          <option value="Vagas">Vagas</option>
-        </select>
-        <br /><br />
-
-        <label for="name">Nome Completo</label><br />
-        <input type="text" placeholder="Seu nome" />
-        <br /><br />
-
-        <label for="email">E-mail</label><br />
-        <input type="email" placeholder="email@seudominio.com" />
-        <br /><br />
-        <label for="mensagem">Mensagem</label><br />
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Escreva sua mensagem aqui"
-        ></textarea>
-        <br /><br />
-        <input type="checkbox" id="aceita" />
-        <label for="aceita">Aceito receber novidades por e-mail</label>
-        <br /><br />
-        <button>Enviar</button>
+        <h1>Lista de compras</h1>
+        <hr />
+        <ul>
+          <li>
+            <input type="checkbox" id="ovos" checked />
+            <label for="ovos">Ovos</label>
+          </li>
+          <li>
+            <input type="checkbox" id="leite" />
+            <label for="leite">Leite</label>
+          </li>
+          <li>
+            <input type="checkbox" id="manteiga" />
+            <label for="manteiga">Manteiga</label>
+          </li>
+          <li>
+            <input type="checkbox" id="fermento" />
+            <label for="fermento">Fermento</label>
+          </li>
+          <li>
+            <input type="checkbox" id="chocolate" />
+            <label for="chocolate">Chocolate</label>
+          </li>
+        </ul>
       </fieldset>
     </main>
   </body>
