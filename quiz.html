@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+      body {
+        font-family: 'Playfair Display', serif;
+        font-size: 14px;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5px;
+        border: solid black 1px;
+        margin: 50px 50px 5px 50px;
+        background: #b8f4ff;
+      }
+
+      fieldset {
+        border-radius: 10px;
+        background: linear-gradient(#b8fdff, #2affea, #007c70);
+      }
+
+      main {
+        margin: 5px 50px 5px 50px;
+        border-radius: 10px;
+        background: linear-gradient(#b8fdff, #2affea, #007c70);
+      }
+
+      a {
+        margin: 10px 20px 10px 20px;
+      }
+
+      button {
+        margin: 10px 20px 20px 30px;
+      }
+
+      /*
+      li{
+        list-style: none;
+      }
+      */
+    </style>
+    <title>Quiz</title>
+  </head>
+  <body>
+    <header>
+      <a href="glossary.html">Glossário</a>
+      <a href="contato.html">Contato</a>
+      <a href="shopping-list.html">Compras</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="#">Blog Post</a>
+    </header>
+    <main>
+      <form action="#">
+        <ol>
+          <li>
+            <h3>
+              Que esfera do dragão o avo de goku deu para ele quando ele era
+              criança?
+            </h3>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-a"
+                value="A"
+              />
+              <label for="question-1-a">A) Esfera de 2 estrelas</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-b"
+                value="B"
+              />
+              <label for="question-1-b">B) Esfera de 4 estrelas</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-c"
+                value="C"
+              />
+              <label for="question-1-c">C) Esfera de 7 estrelas</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-d"
+                value="D"
+              />
+              <label for="question-1-d">D) Esfera de 9 estrelas</label>
+            </div>
+          </li>
+          <li>
+            <h3>Qual o nome do Deus da terra segunda Dragon Ball Z?</h3>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-a"
+                value="A"
+              />
+              <label for="question-1-a">A) Kami-Sama</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-b"
+                value="B"
+              />
+              <label for="question-1-b">B) Piccolo daimao</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-c"
+                value="C"
+              />
+              <label for="question-1-c">C) Freeza</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-d"
+                value="D"
+              />
+              <label for="question-1-d">D) Kuririn</label>
+            </div>
+          </li>
+          <li>
+            <h3>Qual nome foi dado a Goku ao nascer?</h3>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-a"
+                value="A"
+              />
+              <label for="question-1-a">A) Son Goku</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-b"
+                value="B"
+              />
+              <label for="question-1-b">B) Kakarotto</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-c"
+                value="C"
+              />
+              <label for="question-1-c">C) Macaco de Jade</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-d"
+                value="D"
+              />
+              <label for="question-1-d">D) Sun Wukong </label>
+            </div>
+          </li>
+          <li>
+            <h3>Quantas tranfomções tem o Majin Boo?</h3>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-a"
+                value="A"
+              />
+              <label for="question-1-a">A) 5</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-b"
+                value="B"
+              />
+              <label for="question-1-b">B) 3</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-c"
+                value="C"
+              />
+              <label for="question-1-c">C) 7</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-d"
+                value="D"
+              />
+              <label for="question-1-d">D) 2 </label>
+            </div>
+          </li>
+        </ol>
+      </form>
+      <button>Enviar</button>
+    </main>
+  </body>
+</html>
